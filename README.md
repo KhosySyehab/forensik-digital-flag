@@ -73,13 +73,33 @@ Tool tambahan, bila ada, dicantumkan pada dokumentasi masing-masing investigasi.
 ```text
 forensik-digital-flag/
 │
-├── README.md        # Ringkasan umum (dokumen ini)
-├── quest.zip        # Berkas soal
+├── README.md                       # Ringkasan umum (dokumen ini)
+├── quest.zip                       # Berkas soal
+├── build_up_walkthrough_quest.md   # Walkthrough pembuatan soal
+├── solver_quest.md                 # Solver soal
 │
-├── flag-kel1/       # Investigasi barang bukti Kelompok 1
-├── flag-kel2/       # Investigasi barang bukti Kelompok 2
-├── flag-kel3/       # Investigasi barang bukti Kelompok 3
-└── flag-kel4/       # Investigasi barang bukti Kelompok 4
+├── flag-kel1/                      # Investigasi barang bukti Kelompok 1
+│   ├── kel1-report.md              # Laporan investigasi
+│   ├── flag.txt                    # Flag hasil recovery
+│   └── duplicated_evidence/        # Salinan barang bukti
+│
+├── flag-kel2/                      # Investigasi barang bukti Kelompok 2
+│   ├── report-kel2.md              # Laporan investigasi
+│   ├── Autopsy-Kelompok2/          # Case Autopsy
+│   ├── Screenshots/                # Screenshot tahapan analisis
+│   └── recovered_files/            # File hasil recovery
+│
+├── flag-kel3/                      # Investigasi barang bukti Kelompok 3
+│   ├── kel3-report.md              # Laporan investigasi
+│   ├── flag.txt                    # Flag hasil analisis
+│   ├── screenshots/                # Screenshot tahapan analisis
+│   └── duplicated_evidence/        # Salinan barang bukti
+│
+└── flag-kel4/                      # Investigasi barang bukti Kelompok 4
+    ├── report-kel4.md              # Laporan investigasi
+    ├── Autopsy-Kelompok4/          # Case Autopsy
+    ├── Screenshots/                # Screenshot tahapan analisis
+    └── recovered_files/            # File hasil recovery
 ```
 
 Setiap folder berisi laporan investigasi beserta screenshot pendukung, sehingga proses dan hasil pemeriksaan tiap target dapat ditelusuri secara terpisah.
