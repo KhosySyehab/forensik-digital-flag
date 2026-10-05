@@ -1,6 +1,5 @@
-# Forensik Digital: Flag Hunting
-
-**Dokumentasi investigasi barang bukti digital oleh Kelompok 5**
+# Forensik Digital Flag Hunting
+## **Dokumentasi investigasi barang bukti digital oleh Kelompok 5**
 
 Repository ini berisi dokumentasi proses investigasi forensik digital yang dilakukan oleh **Kelompok 5** terhadap barang bukti dari empat kelompok target (Kelompok 1 sampai Kelompok 4) pada mata kuliah Forensik Digital.
 
