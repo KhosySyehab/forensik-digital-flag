@@ -5,7 +5,7 @@
 | Field | Detail |
 |---|---|
 | **Nomor Kasus** | FORDIG-2026-001 |
-| **Judul Kasus** | Analisis Artefak Serangan BadUSB — m00nspectre |
+| **Judul Kasus** | Analisis Artefak Serangan BadUSB - m00nspectre |
 | **Tanggal Laporan** | 04 Oktober 2026 |
 | **Pemeriksa** | K |
 | **Klasifikasi** | RAHASIA / TERBATAS |
@@ -118,7 +118,7 @@ Perangkat USB mencurigakan ditemukan telah dicolokkan ke workstation milik korba
 | **File Image** | sandisk-ijo.E01 |
 | **MD5** | - |
 | **SHA1** | - |
-| **Dibuat oleh** | FTK Imager 4.x |
+| **Dibuat oleh** | Exterro FTK Imager |
 | **Format** | Expert Witness Format (E01) |
 
 > **Catatan:** Seluruh analisis dilakukan terhadap salinan forensik. Media original tidak dimodifikasi selama proses pemeriksaan.
@@ -155,7 +155,7 @@ Sebelum akuisisi dilakukan, perangkat USB dihubungkan ke workstation forensik me
 | Case Number | FORDIG-2026-001 |
 | Evidence No. | BB-001 |
 | Description | SanDisk USB Drive mencurigakan |
-| Examiner | \[Nama Pemeriksa\] |
+| Examiner | K |
 
 **e)** Klik **Start** — FTK Imager secara otomatis melakukan verifikasi hash setelah image selesai dibuat.
 
@@ -310,8 +310,8 @@ Database SQLite berisi saved passwords browser Edge, dienkripsi dengan DPAPI + A
 ### 6.6 Komunikasi Tersangka (`little_courrier_chat.png`)
 
 File PNG (1122×1402 px) berisi screenshot percakapan **Microsoft Teams** di *Secure Channel* antara:
-- 🔵 **CISO Leader (CL)**
-- 🟢 **Malware Analyst (MA)**
+- **CISO Leader (CL)**
+- **Malware Analyst (MA)**
 
 **Rekonstruksi percakapan:**
 
@@ -518,7 +518,7 @@ strings combined_v2_gui.exe | grep "FORDIG{"
 
 ---
 
-> ## 🏁 FLAG
+> ## FLAG
 >
 > ```
 > FORDIG{c0ngr4tul4tI0nz_d1d_y0u_f1nd_m3?_w3ll_g00d_j0b_k3l0mp0k-3_gr33t1ng5_fr0m_m00nspectre}
@@ -556,27 +556,7 @@ strings combined_v2_gui.exe | grep "FORDIG{"
 
 ---
 
-## 12. Lampiran
-
-| Lampiran | Keterangan |
-|---|---|
-| **Lampiran A** | Daftar lengkap file pada volume USB *(ekspor dari Autopsy: File → Generate Report)* |
-| **Lampiran B** | Listing strings mencurigakan: `strings combined_v2_gui.exe > strings_output.txt` |
-| **Lampiran C** | Hexdump magic header: `43 42 43 31` → `"CBC1"` |
-| **Lampiran D** | Screenshot Autopsy — dokumentasi temuan visual |
-| **Lampiran E** | Hash Verification Report dari FTK Imager |
-
----
-
 *Laporan ini dibuat berdasarkan pemeriksaan forensik yang dilaksanakan sesuai dengan standar dan prosedur yang berlaku. Seluruh temuan terdokumentasi dan dapat direproduksi.*
-
----
-
-| Field | |
-|---|---|
-| **Pemeriksa** | |
-| Nama | K |
-| Tanggal | 04 Oktober 2026 |
 
 ---
 
