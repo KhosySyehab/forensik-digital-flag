@@ -1,4 +1,4 @@
-# DIGITAL FORENSIC INVESTIGATION REPORT (DFIR)
+# DIGITAL FORENSIC INVESTIGATION REPORT
 ## Investigasi Barang Bukti Digital Kelompok 2
 ### Disusun oleh: **Kelompok 5** | Mata Kuliah: Forensik Digital
 
@@ -74,7 +74,7 @@ Data Source → Ingest → Analisis MIME Type → Identifikasi Anomali → Pemer
 
 Data `KEBELET PSDM` ditambahkan ke Autopsy sebagai **Logical Files**. Setelah berhasil ditambahkan, Autopsy menampilkan `LogicalFileSet_1 Host` pada bagian *Data Sources*.
 
-![Data source](screenshots/SS1_data_source.png)
+<img width="960" height="600" alt="ss - 1 " src="https://github.com/user-attachments/assets/f9ad5ee0-efb2-451f-ae65-2cde0a7078bd" />
 
 *Gambar 1. Data source berhasil ditambahkan ke Autopsy (case `Fordig-Kelompok2`).*
 
@@ -98,7 +98,7 @@ Autopsy mengelompokkan file berdasarkan tipe kontennya:
 
 Hampir seluruh file berupa gambar. Keberadaan **satu file `text/plain`** menjadi anomali yang diperiksa lebih lanjut. Pada *Deleted Files*, hasil pencarian menunjukkan `File System (0)` dan `All (0)`, sehingga tidak ada file terhapus yang perlu dipulihkan pada barang bukti ini.
 
-![Analisis MIME type](screenshots/SS2_mime_type_analysis.png)
+<img width="960" height="600" alt="ss - 2" src="https://github.com/user-attachments/assets/c5a50d87-5be0-4d89-8eef-60f870762a82" />
 
 *Gambar 2. Hasil identifikasi MIME type menunjukkan satu file `text/plain`.*
 
@@ -112,7 +112,7 @@ Ketika file diperiksa melalui tab **Text** (*Extracted Text*), ditemukan:
 FLAG{F0r3ns1k_K3l0mp0k_2}
 ```
 
-![Flag ditemukan](screenshots/SS3_flag_found.png)
+<img width="960" height="600" alt="ss - 3" src="https://github.com/user-attachments/assets/14c3d9cb-7283-4ba2-a843-31d4cd96cbaa" />
 
 *Gambar 3. File `KONMED 5.png` teridentifikasi sebagai `text/plain` dan berisi flag.*
 
