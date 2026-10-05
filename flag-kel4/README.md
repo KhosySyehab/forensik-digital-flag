@@ -51,7 +51,9 @@ Flashdisk
 └── rhythm game
 ```
 
-![Exhibit 1: Struktur flashdisk](./screenshots/ss1_struktur_flashdisk.png)
+![Exhibit 1: Struktur flashdisk]
+<img width="740" height="246" alt="ss - 1" src="https://github.com/user-attachments/assets/e66ecf4f-dc7f-490c-951b-41f77e71ed4e" />
+
 *Gambar 1: Struktur folder pada flashdisk barang bukti.*
 
 - Folder **`tugas`** berisi beberapa file teks yang menjadi salah satu sumber informasi dalam proses investigasi.
@@ -90,7 +92,9 @@ File PNG tersebut diperiksa menggunakan aplikasi steganografi OpenStego dengan l
 2. Memasukkan file PNG `250926` sebagai **Input Stego File**.
 3. Mengarahkan output ke folder hasil ekstraksi yang telah disiapkan.
 
-![Exhibit 2: Proses ekstraksi OpenStego](./screenshots/ss2_openstego_extract.png)
+![Exhibit 2: Proses ekstraksi OpenStego]
+<img width="960" height="600" alt="ss - 2" src="https://github.com/user-attachments/assets/56c39b12-81f3-48a0-843d-11daf6b9e66b" />
+
 *Gambar 2: Proses Extract Data pada OpenStego.*
 
 Setelah proses ekstraksi selesai, ditemukan data tersembunyi yang berisi flag.
@@ -111,7 +115,8 @@ FLAG
 
 ### 2.3 Hasil Flag 1
 
-![Exhibit 3: Hasil Flag 1](./screenshots/ss3_hasil_flag1.png)
+<img width="960" height="600" alt="ss - 3" src="https://github.com/user-attachments/assets/52920af6-5873-48e4-b00d-00bcb2ae96b4" />
+
 *Gambar 3: Hasil ekstraksi steganografi berupa Flag 1.*
 
 ```text
@@ -126,7 +131,8 @@ Dengan demikian, Flag 1 berhasil ditemukan melalui proses ekstraksi steganografi
 
 Flag kedua memiliki metode yang berbeda: file yang mengandung flag telah **dihapus** dari media penyimpanan.
 
-![Exhibit 4: Folder tugas](./screenshots/ss4_file_terhapus_tugas.png)
+<img width="960" height="600" alt="ss - 4" src="https://github.com/user-attachments/assets/2351f075-68c1-4819-ae2c-5ae45a3a2802" />
+
 *Gambar 4: Folder `tugas` pada flashdisk, tempat file `cobainAES128` sebelumnya berada.*
 
 Nama file yang telah dihapus dari folder `tugas` adalah **`cobainAES128`**. Karena file tersebut sudah tidak terlihat pada filesystem normal, pemeriksaan dilakukan menggunakan **Autopsy** untuk mencari dan melakukan recovery terhadap *deleted file*.
@@ -146,7 +152,9 @@ Setelah evidence berhasil ditambahkan, Autopsy melakukan proses *ingest* terhada
 
 Setelah proses analisis selesai, dilakukan pencarian file dengan nama `cobainAES128` menggunakan fitur pencarian file pada Autopsy dan pemeriksaan pada bagian **Deleted Files**. File tersebut ditemukan sebagai *deleted file*, sehingga dapat disimpulkan bahwa file pernah berada pada media penyimpanan tetapi telah dihapus.
 
-![Exhibit 5: Deleted Files pada Autopsy](./screenshots/ss5_autopsy_deleted_files.png)
+![Exhibit 5: Deleted Files pada Autopsy]
+<img width="662" height="331" alt="ss - 5" src="https://github.com/user-attachments/assets/68776efd-d232-4c73-99f9-0f41747a954a" />
+
 *Gambar 5: File `cobainAES128` terdeteksi sebagai deleted file di Autopsy.*
 
 ### 3.3 Melakukan Recovery
@@ -172,9 +180,6 @@ Temukan FLAG
 ```
 
 Setelah file berhasil direcover, isi file diperiksa untuk menemukan flag kedua.
-
-![Exhibit 6: Hasil Flag 2](./screenshots/ss6_hasil_flag2.png)
-*Gambar 6: Isi file hasil recovery berupa Flag 2.*
 
 ```text
 FLAG{F1L3nY4DiH4pu5}
