@@ -7,7 +7,7 @@
 | **Nomor Kasus** | FORDIG-2026-KEL1 |
 | **Judul Kasus** | Analisis Barang Bukti Digital Kelompok 1 — Investigasi File Terhapus pada Flashdisk |
 | **Tanggal Laporan** | 05 Oktober 2026 |
-| **Pemeriksa** | Kelompok 5 |
+| **Pemeriksa** | K |
 | **Klasifikasi** | TERBATAS |
 
 ---
@@ -229,7 +229,7 @@ Analisis lanjutan dilakukan menggunakan **Autopsy 4.23.1**.
 |---|---|
 | Case Name | `Fordig-Kelompok1` |
 | Case Number | `FORDIG-2026-KEL1` |
-| Examiner | `Kelompok 5` |
+| Examiner | `K` |
 
 3. Klik **Finish**
 
